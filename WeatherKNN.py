@@ -17,8 +17,8 @@ start_time = time.time()
 pd.set_option('display.max_columns', None)
 
 # Read in the weather data.
-data_raw = pd.read_csv("us_accidents_weather_data.csv")
-data_raw = data_raw.sample(n = 400000) # Take on the first couple thousand rows.
+data_raw = pd.read_csv("us_accidents_weather_data_CLEAN.csv")
+#data_raw = data_raw.sample(n = 400000) # Take on the first couple thousand rows.
 data_raw = data_raw.dropna(axis = 0)
 
 

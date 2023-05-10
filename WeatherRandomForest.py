@@ -18,9 +18,9 @@ import time
 start_time = time.time()
 
 # Read in the weather data.
-data_raw = pd.read_csv("us_accidents_weather_data.csv")
+data_raw = pd.read_csv("us_accidents_weather_data_CLEAN.csv")
 data_raw = data_raw.dropna(axis = 0)
-data_raw = data_raw.sample(n = 5000) # Randomly choose a couple thousand rows.
+#data_raw = data_raw.sample(n = 5000) # Randomly choose a couple thousand rows.
 
 # Remove an empty column. There was an error in creating this weather dataset.
 data_raw.pop(data_raw.columns[0])
