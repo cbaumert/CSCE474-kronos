@@ -1,4 +1,6 @@
 # CSCE 474: Data Mining Team Project
+Instructions to Run Files:
+WeatherKNN.py, WeatherNaiveBayes.py, WeatherRandomForest.py, and WeatherNN.py may require you to install the necessary packages. Also, to run the different sampling methods, you will need to comment/uncomment some code sections. See comments in the files.
 
 Clustering Results
 
